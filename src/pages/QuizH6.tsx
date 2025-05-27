@@ -1,13 +1,13 @@
-import img from "../assets/images/answer_h8.png";
+import img from "../assets/images/answer_h6.png";
 import Quiz from "../components/Quiz";
 
 export default function QuizH8() {
   return (
     <Quiz
-      correctAnswer="レミーラ"
-      title="横８"
+      correctAnswer="レイド"
+      title="横6"
       imageSrc={img}
-      maxLength={4}
+      maxLength={3}
     />
   );
 }

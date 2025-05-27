@@ -17,8 +17,9 @@ import QuizH11 from './pages/QuizH11';
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/birthday2025">
       <Routes>
+      <Route path="/quizh1" element={<QuizH1 />} />
         <Route path="/quizh1" element={<QuizH1 />} />
         <Route path="/quizh2" element={<QuizH2 />} />
         <Route path="/quizv1" element={<QuizV1 />} />
