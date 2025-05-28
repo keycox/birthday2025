@@ -81,7 +81,7 @@ export default function Quiz({ correctAnswer, title, imageSrc, maxLength = 5 }: 
               <>
                 <h3 className="text-2xl font-bold text-pink-300 mb-2">🎉 正解！</h3>
                 <p className="text-white mb-2">クロスワードに書いてや✏️</p>
-                <div className="mb-6 bg-gradient-to-br from-red-500 via-orange-500 to-yellow-500 p-6 rounded-xl">
+                <div className="mb-6 bg-gradient-to-br from-blue-500 via-blue-400 to-pink-300 p-6 rounded-xl">
                   <img src={imageSrc} />
                 </div>
               </>
